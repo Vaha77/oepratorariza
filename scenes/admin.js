@@ -4,7 +4,7 @@ const Users = require("../models/users");
 const admin = new Scenes.BaseScene("admin");
 
 admin.enter(ctx => {
-    let txt = `Assalomu aleykum  <b>${ctx.from.first_name}</b> siz <b>Adminlik</b> huquqiga egasiz!`;
+    let txt = `Assalomu aleykum  <b>${ctx.from.first_name}</b> siz <b>Adminlik</b> huquqiga egasiz yangi dbda!`;
     ctx.replyWithHTML(txt, {
         ...Markup.keyboard([
             ["Xabar yuborish"],
